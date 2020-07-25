@@ -1,0 +1,113 @@
+/* Disable Megabar Animation */
+#urlbar {
+    font-size: 10pt !important;
+    margin-top: -1px !important;
+    height: 25px !important;
+    padding: 0px !important;
+}
+
+#main-window:not([uidensity="compact"]) #urlbar {
+    margin-top: 0px !important;
+    height: 25px !important;
+    padding: 0px !important;
+}
+
+#urlbar > #urlbar-background {    
+    box-shadow: #101010 2px 2px 2px inset !important;
+    animation-name: none !important;
+    animation: none !important;
+    padding: 2px !important; 
+    background-position: right center !important; 
+    border-radius: 0px !important;
+    border-bottom: 1px solid #878787 !important;
+    border-right: 1px solid #878787 !important;
+    border-top: 1px solid #181819 !important;
+    border-left: 1px solid #181819 !important;
+    height: 25px !important;
+}
+
+/*#urlbar[breakout][breakout-extend][breakout-extend-animate] > #urlbar-background {    
+    box-shadow: #1479e1 1px 1px 2px inset, #1479e1 -1px -1px 1px inset  !important;
+}*/
+
+#main-window[uidensity="compact"] #searchbar {
+    margin-left: 4px !important;
+}
+
+#urlbar,
+#urlbar[breakout][breakout-extend][breakout-extend-animate] {
+    padding-left: 3px !important; }
+
+#main-window[uidensity="compact"] #urlbar, #main-window[uidensity="compact"] #urlbar-input-container
+#main-window[uidensity="compact"] #urlbar[breakout][breakout-extend][breakout-extend-animate] {
+    padding-left: 3px !important; }
+
+#urlbar[breakout-extend] {
+    top:calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+    left:calc((var(--urlbar-toolbar-width) - var(--urlbar-width)) / 2) !important;
+    width:100% !important }
+
+#urlbar-input-container,
+#urlbar[breakout-extend] #urlbar-input-container {
+    margin-top: -4px !important;
+    height: 100% !important;
+    padding: 1px!important }
+
+#main-window[uidensity="compact"] #urlbar-input-container,
+#main-window[uidensity="compact"] #urlbar[breakout-extend] #urlbar-input-container {
+    margin-top: -1px !important;
+    height: 100% !important;
+    padding:1px!important }
+
+/* Reduce row paddings to make them more compact */
+
+.urlbarView {
+   margin-top: 2px !important;
+   padding: 0px !important;
+   opacity: 0.96 !important;
+   background-image: linear-gradient(to bottom,#404040,#101010) !important;
+   margin-left:-2px!important;
+   width:100%!important;
+   border-top: 1px solid #878787 !important;
+   border-left: 1px solid #878787 !important;
+   box-shadow: 1px 1px 1px #000 !important;
+}
+
+.urlbarView-row {
+    padding: 0px !important;
+}
+
+
+.urlbarView-row:first-child {
+    margin-top: -6px !important;
+}
+
+.urlbarView-row:last-child {
+    margin-bottom: -5px !important;
+}
+
+.urlbarView-row > .urlbarView-row-inner {
+  margin: 0px !important;
+  border: 0px !important;
+  border-top: 1px solid transparent !important;
+  border-bottom: 1px solid transparent !important;
+  border-radius: 0px !important;
+}
+
+.urlbarView-row:hover > .urlbarView-row-inner {
+   background: unset !important;
+   border-radius: 0px !important;
+   background-image: linear-gradient(to bottom,#303030,#101010) !important;
+   background-color: #202020 !important;
+   width:100%!important;
+   color: #1479e1 !important;
+   border: 0px !important;
+   border-top: 1px solid #909090 !important;
+   border-bottom: 1px solid #000 !important;
+   box-shadow: 1px 1px 2px #000 !important;
+}
+
+#cfr-label-container {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
