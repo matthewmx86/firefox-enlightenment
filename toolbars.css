@@ -57,7 +57,7 @@ toolbar:not(#TabsToolbar):not(#toolbar-menubar):not(#nav-bar):not(:-moz-lwtheme)
 }
 
 #browser {
-  border-top: 1px solid #878787 !important;
+  /*border-top: 1px solid #878787 !important;
   border-left: 1px solid #878787 !important;
   border-bottom: 1px solid #000 !important;
   border-right: 1px solid #000 !important;
@@ -65,7 +65,12 @@ toolbar:not(#TabsToolbar):not(#toolbar-menubar):not(#nav-bar):not(:-moz-lwtheme)
   margin-left: 2px !important;
   margin-right: 3px !important;
   margin-bottom: 3px !important;
-  box-shadow: 1px 1px 1px #000, -1px -1px 1px #119bf7 !important;
+  box-shadow: 1px 1px 1px #000, -1px -1px 1px #119bf7 !important;*/
+  border: none !important;
+  border-right: 1px solid #202020 !important;
+  margin: 1px !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 
 #navigator-toolbox toolbar:not(#nav-bar):not(#toolbar-menubar) {-moz-box-ordinal-group:10}
